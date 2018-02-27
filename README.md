@@ -12,4 +12,6 @@
 | `com.googlecode.iterm2.plist` | settings file for iTerm |
 
 ## Todo
-add a script to get these files regularly and push to git
+[init] add a script to automatically move iTerm to Application folder
+[job] regularly grab bash_profile/other settings and commit
+
