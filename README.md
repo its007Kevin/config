@@ -2,7 +2,7 @@
 
 **Config** is a checklist I follow to set up a new Mac's development environment. It gets me up to speed so I can more quickly get back to coding.
 
-## Setup
+## Zsh Setup
 
 1. Install Homebrew
 ```
@@ -99,7 +99,20 @@ docker-compose (provides aliases)
 cat .vimrc >> ~/.vimrc
 ```
 
+## Visual Studio Code Setup
 
+Download from: [Microsoft](https://visualstudio.microsoft.com/downloads/)
+
+List of plugins to install:
+```
+Markdown All in One
+Material Theme
+Material Icon Theme
+Python
+Visual Studio IntelliCode - Preview
+```
+
+Then utilize `cmd+p` to activate all the plugins
 
 ## Files
 
