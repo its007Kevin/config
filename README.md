@@ -114,6 +114,10 @@ Visual Studio IntelliCode - Preview
 
 Then utilize `cmd+p` to activate all the plugins
 
+### Applications
+1. Download `Magnet` from the app store to organize workspaces with shortcuts
+2. Configure touchbar to prevent "two finger swipe" to go back and forward
+
 ## Files
 
 | File | Description |
@@ -121,8 +125,6 @@ Then utilize `cmd+p` to activate all the plugins
 | `.vimrc` | Configs for `vim` |
 | `.zshrc` | Congigs for `zsh` |
 
-### Applications
- IDE
 
 ### Todo
 
