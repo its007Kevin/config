@@ -32,27 +32,19 @@ iTerm2 Preferences -> Profile -> General
 and restart iTerm2
 ```
 
-6. Setup Material Design Colours
+6. Setup Wild Cherry Colours
 ```
-curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors
+https://github.com/mashaal/wild-cherry
 
 iTerm2 Preferences -> Profiles -> Colors tab -> Color presets
--> Import -> material-design-colors.itermcolors
-
-rm material-design-colors.itermcolors
+-> Import -> wild-cherry.itermcolors
 ```
 
-7. Set theme to agnoster
+7. Set theme to wild cherry
 ```
 vim ./zshrc
-ZSH_THEME="agnoster"
+ZSH_THEME="wild-cherry"
 ```
-
-Set `whoami` to `DEFAULT_USER` to prevent verbose pre-line information `user:host` on local machines. Add the following to the `~/.zshrc`
-```
-cat .zshrc >> ~/.zshrc
-```
-
 
 1. Install Powerline fonts
 ```
@@ -64,7 +56,7 @@ rm -rf fonts
 ```
 ```
 iTerm2 -> Preferences -> Profile -> Text -> Change Font 
--> Melso LG L DZ for Powerline
+-> Melso LG M DZ for Powerline
 ```
 
 9. Add the Syntax Highlighting Plugin
@@ -89,34 +81,21 @@ Add `plugins = (plugin1 zsh-autosuggestions)`
 source .zshrc
 ```
 
-11. Add Other Useful Plugin
-```
-docker-compose (provides aliases)
-```
-
-12. Copy `.vimrc` into the root directory
-```
-cat .vimrc >> ~/.vimrc
-```
-
 ## Visual Studio Code Setup
 
 Download from: [Microsoft](https://visualstudio.microsoft.com/downloads/)
 
 List of plugins to install:
 ```
-Markdown All in One
-Material Theme
-Material Icon Theme
-Python
-Visual Studio IntelliCode - Preview
+Atom One Dark
 ```
 
 Then utilize `cmd+p` to activate all the plugins
 
 ### Applications
 1. Download `Magnet` from the app store to organize workspaces with shortcuts
-2. Configure touchbar to prevent "two finger swipe" to go back and forward
+2. Download `Snap` from app store, add command ` to open finder
+3. Download `Karabiner elements` download vim arrow key complex modification [here](https://pqrs.org/osx/karabiner/complex_modifications/#vi_mode_arrow)
 
 ## Files
 
@@ -124,9 +103,3 @@ Then utilize `cmd+p` to activate all the plugins
 | --- | --- |
 | `.vimrc` | Configs for `vim` |
 | `.zshrc` | Congigs for `zsh` |
-
-
-### Todo
-
-- Setup a script to get the latest configurations to update the github repository
-  - Ex: On change to `.vimrc` run a bash command that will automatically update `.vimrc` in the repo and upload the github
