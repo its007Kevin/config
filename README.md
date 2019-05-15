@@ -65,7 +65,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 vim ~/.zshrc
 ```
-Add `plugins = (plugin1 zsh-syntax-highlighting)`
+Add to `plugins` `zsh-syntax-highlighting`
 ```
 source .zshrc
 ```
@@ -76,7 +76,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 vim ~/.zshrc
 ```
-Add `plugins = (plugin1 zsh-autosuggestions)`
+Add to `plugins` `zsh-autosuggestions`
 ```
 source .zshrc
 ```
